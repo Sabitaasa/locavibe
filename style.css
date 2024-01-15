@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #181818;
+}
+.bg-img {
+  height: 90vh;
+  width: 100%;
+  background-image: url("./assets/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 30%;
+  /* opacity: 35%; */
+}
+.hero-title {
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+  padding-top: 400px;
+}
+
+.about {
+  height: 100vh;
+}
+
+.card-img-top {
+  transition: transform 0.2s;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+.card {
+  overflow: hidden;
+}
+
+.footer {
+  background-color: #273036;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #55acee;
+}
